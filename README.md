@@ -1,24 +1,14 @@
-# README
+# Base de Carros
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Clone the repo and run `bundle install` after that `rails server`
 
-Things you may want to cover:
+### API endpoints
+---
++ GET /veiculos, returns all vehicles in db
++ POST /veiculos, creates a new vehicle
++ GET /veiculos/:id, return a vehicle
++ PATCH or PUT /veiculos/:id, update a vehicle
++ DELETE /veiculos/:id, delete a vehicle
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+### Params
+marca: string, veiculo: string, ano: integer, descricao: text, vendido: boolean
