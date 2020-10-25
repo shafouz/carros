@@ -9,5 +9,8 @@ Clone the repo and run `bundle install` after that `rails server`
 + PATCH or PUT /veiculos/:id, update a vehicle
 + DELETE /veiculos/:id, delete a vehicle
 
+### Request Format
+body: { veiculo: { params } }
+
 ### Params
 marca: string, veiculo: string, ano: integer, descricao: text, vendido: boolean
