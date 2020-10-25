@@ -3,7 +3,6 @@
 Clone the repo and run `bundle install` after that `rails server`
 
 ### API endpoints
----
 + GET /veiculos, returns all vehicles in db
 + POST /veiculos, creates a new vehicle
 + GET /veiculos/:id, return a vehicle
