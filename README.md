@@ -13,4 +13,4 @@ Clone the repo and run `bundle install` after that `rails server`
 body: { veiculo: { params } }
 
 ### Params
-marca: string, veiculo: string, ano: integer, descricao: text, vendido: boolean
+id: integer, marca: string, veiculo: string, ano: integer, descricao: text, vendido: boolean
